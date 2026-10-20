@@ -1,0 +1,31 @@
+﻿{
+  "truth": {
+    "scenario": "fault",
+    "seed": 20261010,
+    "n_vehicles": 5000,
+    "true_cause": "firmware=A",
+    "fault_injected": true
+  },
+  "culprit": [
+    {
+      "cohort": "firmware=A",
+      "p_value": 0.0,
+      "rate_ratio": 2.325886875067479,
+      "ci_low": null,
+      "ci_high": null,
+      "strata_used": 2,
+      "q_value": 0.0,
+      "flagged_exposed": 588,
+      "vehicles_exposed": 2519
+    }
+  ],
+  "unadjusted_groupby": [
+    {
+      "cohort": "firmware=A",
+      "p_value": 1.1893095561011123e-36,
+      "rate_ratio": 2.335200860556544
+    }
+  ],
+  "per_vehicle_threshold_alert_count": 836,
+  "note": "Synthetic single-window result; not a production benchmark."
+}
