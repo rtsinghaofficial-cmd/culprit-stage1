@@ -1,0 +1,19 @@
+﻿{
+  "truth": {
+    "scenario": "simpson",
+    "seed": 20261010,
+    "n_vehicles": 5000,
+    "true_cause": null,
+    "fault_injected": false
+  },
+  "culprit": [],
+  "unadjusted_groupby": [
+    {
+      "cohort": "firmware=A",
+      "p_value": 2.1151444590554152e-55,
+      "rate_ratio": 4.340562785007229
+    }
+  ],
+  "per_vehicle_threshold_alert_count": 455,
+  "note": "Synthetic single-window result; not a production benchmark."
+}
